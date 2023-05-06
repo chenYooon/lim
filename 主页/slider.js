@@ -73,13 +73,13 @@ Swiper.prototype = {
         // 上一张按钮
         this.leftBtn = document.createElement('img');
         this.leftBtn.className = 'leftBtn';
-        this.leftBtn.src = 'file:///D:/desk/root/img/left.png';
+        this.leftBtn.src = 'img/left.png';
         this.swiperListDom.appendChild(this.leftBtn)
 
         // 下一张按钮
         this.rightBtn = document.createElement('img');
         this.rightBtn.className = 'rightBtn';
-        this.rightBtn.src = 'file:///D:/desk/root/img/right.png';
+        this.rightBtn.src = 'img/right.png';
         if (this.imgArr.length === 1) {
             this.leftBtn.style.display = 'none';
             this.rightBtn.style.display = 'none';
